@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.nav-bar{
+    width: 100%;
+}
+.logo{
+    float: left;
+    margin-top:3.5em ;
+  
+}
+.logo h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+.nav-items{
+    float: right;
+    margin-top: 3em;
+
+}
+.nav-items li{
+    list-style: none;
+    display: inline;
+}
+.nav-items li a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 1em 1em;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.592);
+    font-weight:700 ;
+}
+.nav-bar::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* ############### showcase section ####################### */
+.showcase{
+    width: 100%;
+}
+.show-container{
+    padding-top:5rem ;
+}
+.left-sec{
+    float: left;
+    width: 50%;
+    padding: 2em 0;
+}
+.right-sec{
+    float: right;
+    width: 50%;
+    padding: 2em 0;
+}
+.right-sec img{
+ width: 100%;
+ height: 100%;
+}
+.show-container::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left-sec h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 3.5rem;
+
+}
+.forms{
+
+    width: 100%;
+}
+ input[type="email"]{
+    padding: 1.5em;
+    height: 2.3em;
+    width: 55%;
+    margin-right: 1em;
+    color:  hsl(0, 0%, 75%);;
+    
+}
+
+/* ############ utility classes ############## */
+.btn{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding: 1em 3em;
+    text-decoration:none ;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1em;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 2px;
+
+}
+.btn-primary{
+    background:  hsl(224, 82%, 54%);
+    color: #fff;
+    
+}
+.btn:hover{
+    background-color:hsl(224, 77%, 65%) ;
+}
+.para{
+    font-family: 'Open Sans', sans-serif;
+    margin: 1.5em 0;
+    font-weight:400 ;
+    font-size: 1.5rem;
+    color: hsl(243, 87%, 12%);
+
+}
+/* ################# second section ################## */
+.sec-showcase{
+ margin-top: 9.5em;
+ background: hsl(240, 75%, 98%);
+
+}
+
+.decor img{
+    display: block;
+    width: 100%;
+    
+}
+.left-sec .sec{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    color: hsl(170, 45%, 43%);
+}
+.sec:hover{
+    color: hsl(170, 41%, 60%);
+}
+.sec-showcase .sec::after{
+    content: "";
+    display: block;
+    margin: 0.5em 0;
+    width: 115%;
+    height: 0.1em;
+    background-color:hsl(170, 45%, 43%);
+}
+.left-sec .arrow{
+    display: inline-block;
+    position: relative;
+    top: 0.45rem;
+    left: 0.2rem;
+}
+
+.showcase-sec::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.card{
+    width: 65%;
+    margin: 5em 0 9em 0;
+    padding: 1em 2em;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-para::before{
+    content: url(../images/icon-quotes.jpg);
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: left;
+
+}
+.testimonial .img{
+   float: left;
+    display: inline;
+}
+.testimonial img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.testimonial .content{
+
+    float: left;
+    margin: 1.2em 0.5em;
+}
+.testimonial::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.content h3{
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 700;
+
+}
+.content p{
+        font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+/* ################ section 3 ###################### */
+.sec-third{
+    background: hsl(239, 22%, 55%);
+}
+.third-container{
+    padding-top: 5em;
+}
+.sec-third .third-container .left{
+    color: #fff;
+}
+.left p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 1.5em 0;
+    font-weight:400 ;
+    font-size: 1.5rem;  
+}
+.wrapper{
+    width: 80%;
+    margin-left:10.5em;
+}
+.wrapper .inp{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-style: none;
+ 
+}
+.third-container::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+/* ############# footer ################## */
+footer{
+    background:  hsl(243, 87%, 12%);
+    color:#fff;
+}
+.footer{
+    float: left;
+    width: 25%;
+}
+.footer h1{
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-cont{
+    padding-top: 7em;
+}
+.footer-cont::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer2{
+    margin: 5em 0;
+}
+.footer-content p{
+    font-size: 1.5rem;
+    padding: 0.3em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-content {
+margin:1.7em 0;
+}
+.footer-content .phone::before{
+   font: var(--fa-font-solid );
+   content: "\f2a0";
+   margin-right:0.9em;
+
+}
+.footer-content .email::before{
+    font: var(--fa-font-solid );
+    content:"\f0e0";
+    margin-right:0.9em;
+
+}
+.footer2{
+    text-align: center;
+    padding: 2em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer2 li{
+    font-size: 1.5rem;
+    padding: 0.5em 0;
+}
+.footer2 span{
+    padding: 0.8rem 0.8rem;
+    border: 2px solid #fff;
+    border-radius: 2.0rem;
+    margin: 0 0.5rem;
+}
+
+
+/* ################# Media-queries ################## */
+@media (max-width:768px){
+    .left-sec,.right-sec{
+        float: none;
+        width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+    .card{
+        width: 90%;
+        margin: 0.7em auto;
+    }
+    .forms input{
+        display: block;
+        width: 100%;   
+    }
+    .wrapper{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .btn{
+        width: 100%;  
+    }
+    .footer{
+        float: none;
+        width: 100%;
+    }
+
+}
+
+
+
+/* ################# for small screen sizes ################ */
+@media (max-width:500px) {
+    html{
+        font-size: 50%;
+    }
+    .left-sec,.right-sec{
+        float: none;
+        width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+    .card{
+        width: 90%;
+        margin: 0.7em auto;
+    }
+    .forms input{
+        display: block;
+        width: 100%;   
+    }
+    .wrapper{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .btn{
+        width: 100%;  
+    }
+    .footer{
+        float: none;
+        width: 100%;
+    }
+    .footer-brand{
+        text-align: center;
+    }
+}
